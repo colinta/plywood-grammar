@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Miscellaneous</string>
+	<key>scope</key>
+	<string>source.plywood</string>
+	<key>settings</key>
+	<dict>
+		<key>increaseIndentPattern</key>
+		<string>(?x)
+			^\s*(  # start with any whitespace
+				([\w.@]+(.*)  # first tag and arguments
+				 :  # the block start
+				 (\s*#.*)  # optional comment
+				 $)  #
+			)</string>
+		<key>disableIndentNextLinePattern</key>
+		<string></string>
+	</dict>
+	<key>uuid</key>
+	<string>5F6B517C-2610-4B1B-B6FD-2153AB8C9925</string>
+</dict>
+</plist>
